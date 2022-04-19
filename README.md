@@ -1,86 +1,33 @@
-# zhidiantianxia自动打卡，部署到腾讯云函数.
-<!--more-->
-## 一、注册腾讯云账号，并实名认证。
+### <center>Hi there 👋</center>
 
-[点击注册](https://cloud.tencent.com/)
 
-## 二、下载函数包
+[![profile-views](https://komarev.com/ghpvc/?username=your-github-Qutue)](https://github.com/qutue)
+[![Mail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white&link=mailtohanjuntao14@gmail.com)](mailto://hanjuntao14@gmail.com)
 
-[点击下载](https://wwb.lanzouf.com/ilJzQ022ovkf)并解压缩。
+**Languages and Tools:**
 
-解压后的文件目录：
+<p align="left">
+    <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer">
+        <img src="https://ucarecdn.com/5a67f7de-d4f1-4fbe-92e2-8ef68982f7ee/coriginal.svg " alt="c" width="40"
+            height="40" />
+    </a>
+    <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img
+            src="https://ucarecdn.com/2687ea29-e7dc-4428-b7bc-ae4629d7cd77/cplusplusoriginal.svg" alt="cplusplus"
+            width="40" height="40" />
+     </a>
+    <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img
+            src="https://ucarecdn.com/e008d601-347f-44fb-bc00-5755d2d985aa/pythonoriginal.svg" alt="python" width="40"
+            height="40" /> 
+    </a>
+    <a href="https://www.java.com/" target="_blank" rel="noreferrer"> <img
+            src="https://ucarecdn.com/07f50263-b3ce-400f-9d78-61288b191b57/javaoriginal.svg" alt="java" width="40"
+            height="40" /> 
+    </a>
+</p>
 
-```text
-zhidiantianxia
-├── README.md
-├── README_EN.md
-├── serverless.yml
-└── src
-    └── index.py
-```
+[![Qutue's GitHub stats](https://gh-stats-qutue.vercel.app/api?username=qutue&count_private=true&show_icons=true)](https://github.com/qutue)
 
-用记事本或其他文本编辑器打开serverless.yml
 
-填写相应数据
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Qutue&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
 
-```YAML
-phone: 手机号
-password: 密码
-address: 地址
-deviceToken: deviceToken
-district: 地区
-jishiKey: 即时达key
-lat: 纬度
-lng: 经度
-# 下面三个看自己是否需要填写，不填就不用动
-health_measures: none
-origin_address: none
-origin_address_detail: none
-```
-
-定时触发器
-
-```YAML
-events:
-  - timer:
-      parameters:
-        # argument: ""
-        # 每天00:00执行
-        cronExpression: 0 0 0 */1 * * *
-        enable: true
-        qualifier: $DEFAULT
-```
-
-定时触发器，默认每天00:00执行，可自行修改为合适的时间。
-
-## 三、部署
-
-### 安装Serverless Framework CLI 
-
-*先安装chocolatey，再用chocolatey安装serverless*
-
-**安装chocolately**
-
-官方教程
-
-[点击查看](https://chocolatey.org/install#:~:text=Install%20Chocolatey%20for%20Individual%20Use%253A)
-
-**安装serverless**
-
-官方教程
-
-[点击查看](https://cloud.tencent.com/document/product/583/44753#windows-.E7.B3.BB.E7.BB.9F)
-
-安装完后，打开刚刚解压的文件夹，在地址栏输入cmd，回车。
-在弹出的cmd窗口里面输入
-
-`serverless deploy` 
-
-回车，然后根据提示进行扫码等操作。
-
-完成后，登陆控制台进行查看
-[点击登录](https://console.cloud.tencent.com/scf/list)
-
-----
-**end**
-
+[![most-used-language](https://gh-stats-qutue.vercel.app/api/top-langs/?username=Qutue&layout=compact)](https://github.com/qutue)
